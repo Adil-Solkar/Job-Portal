@@ -29,7 +29,7 @@ function Joblisting({ job }) {
           <p className="mb-5">{description}</p>
 
           <button
-            className="cursor-pointer text-indigo-500 mb-5 hover:text-indigo-950 focus:text-indigo-950 border-0"
+            className="cursor-pointer text-indigo-500 mb-5 hover:text-indigo-950 border-0"
             onClick={handleDesriptionClick}
           >
             {showFullDescription ? "Show Less" : "Show More"}
