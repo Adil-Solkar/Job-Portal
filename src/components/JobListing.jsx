@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { FaMapMarker } from "react-icons/fa"
+import { FaMapMarker } from "react-icons/fa";
+import { Link } from "react-router";
 
 function Joblisting({ job }) {
   const [showFullDescription, setShowFullDescription] = useState(false);
@@ -44,12 +45,12 @@ function Joblisting({ job }) {
               <FaMapMarker className="inline mb-1 mr-2 text-lg"/>
               {job.location}
             </p>
-            <a
-              href="job.html"
+            <Link
+              to="/jobs"
               className="h-9 bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm"
             >
               Read More
-            </a>
+            </Link>
           </div>
         </div>
       </div>
