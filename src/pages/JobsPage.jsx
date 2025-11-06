@@ -1,6 +1,9 @@
+import JobListings from "../components/Joblistings"
 function JobsPage() {
   return (
-    <div>JobsPage</div>
+    <section className="bg-blue-50 px-4 py-5 min-h-screen">
+      <JobListings />
+    </section>
   )
 }
 

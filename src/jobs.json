@@ -1,5 +1,5 @@
-
- [
+{
+  "jobs": [
     {
       "id": "1",
       "title": "Senior React Developer",
@@ -83,5 +83,34 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "d72f",
+      "title": "React Developer",
+      "type": "Part-Time",
+      "location": "Mumbai",
+      "description": "Frontend developer with good hands on react",
+      "salary": "$80K - 90K",
+      "company": {
+        "name": "Web Solutions",
+        "description": "asdbasjasjc askjbdlasjdljasdasl",
+        "contactEmail": "test@test.com",
+        "contactPhone": "8888'"
+      }
+    },
+    {
+      "id": "4a05",
+      "title": "sdasdasd",
+      "type": "Remote",
+      "location": "aaaaaaa",
+      "description": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+      "salary": "Under $50K",
+      "company": {
+        "name": "aaaaaaaaaaaaaaa",
+        "description": "aaaaaaaaaaaaaaaaaaaa",
+        "contactEmail": "test@asbdas.com",
+        "contactPhone": "7777777777777777"
+      }
     }
   ]
+}

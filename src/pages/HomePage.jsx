@@ -1,6 +1,6 @@
 import Hero from "../components/Hero"
 import HomeCards from "../components/HomeCards"
-import JobListings from "../components/JobListings"
+import JobListings from "../components/Joblistings"
 import ViewAllJobs from "../components/ViewAllJobs"
 
 function HomePage() {
@@ -8,7 +8,7 @@ function HomePage() {
     <>
         <Hero />
         <HomeCards />
-        <JobListings />
+        <JobListings isHome={true}/>
         <ViewAllJobs />
     </>
   )
