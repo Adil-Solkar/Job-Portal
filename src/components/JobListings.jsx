@@ -22,7 +22,9 @@ function JobListings( {isHome = false} ) {
       fetchJobsData()
     },[apiUrl])
 
-  return (
+  if(!jobs.length) return <h2>Loading.....</h2>
+
+  return(
     <>
       <section className="bg-blue-50 px-4 py-10">
         <div className="container-xl lg:container m-auto">
@@ -38,7 +40,7 @@ function JobListings( {isHome = false} ) {
         </div>
       </section>
     </>
-  );
+  ) 
 }
 
 export default JobListings;
